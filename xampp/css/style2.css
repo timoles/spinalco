@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #85919d;
+  height: 100%;
+  position: relative;
+}
+
+ul.navbar{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 1em;
+	width: 9em;
+}
+
+.wrapper{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header{
+	background-color: white;
+	height: 25%;
+	padding: auto;
+	border-bottom-color: #BEF781;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+}
+
+#navibereich {
+	width: 15%;
+	float: left;
+	padding-left: 20px;
+}
+
+#navibereich ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navibereich li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+
+#navibereich li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#navibereich li.active {
+    color: white;
+    background-color: #555;
+}
+
+#navibereich li.active a{
+    color: white;
+}
+
+
+#textbereich{
+	background-color: white;
+	float: right;
+	width: 82%;
+	height: 65%;
+    overflow-y: auto;
+    font-weight: lighter;
+	
+}
+
+#textbereich h1,h2,h3, h4 {
+    margin-left: 5%;
+    font-weight: lighter;
+}
+
+
+#footer{
+	clear: both;
+	text-align: right;
+	padding: 10px;
+}
+
+#float {
+    float: left;
+    width: 20%;
+    
+}
+
+.box {
+  height: 210px;
+  width: 200px;
+  float: left;
+  margin: 15px;
+  margin-left: 5%;
+  padding: 25px;
+  background: #E6E6E6;
+  border:2px solid gray;
+}
+
+.form{
+	margin-left: 63px;
+}
+
+table.table_line {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: darkgrey;
+	border-collapse: collapse;
+}
+table.table_line th {
+	
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: darkgrey;
+}
+
+table.table_line td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: darkgrey;
+}
+
+table.table_zebra{
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+    line-height: 30px;
+	border-width: 1px;
+	border-color: darkgrey;
+	border-collapse: collapse;
+}
+
+table.table_zebra th td{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 8px;
+}
+table.table_zebra td{
+    width: 30%;
+}
+
+table.table_zebra tr:nth-child(odd) {
+   background-color:gainsboro;
+}
+table.table_zebra tr:nth-child(even){
+    background: #FFF;
+}
+
+.komplex:link { text-decoration: none;}
+.komplex:visited { text-decoration: none;}
+.komplex:active { text-decoration: none;}
+.komplex:hover {
+  background: #555;
+    color: azure;
+}
